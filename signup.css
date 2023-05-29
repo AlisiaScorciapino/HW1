@@ -1,0 +1,110 @@
+body{
+    background-image:url(sf.webp);
+    background-size:100% auto;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;/*modificare*/
+    color:aliceblue;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    background-color:black;
+    opacity: 0.7;
+    text-align: center;
+    margin: 65px auto;
+    max-width: 450px;/*dubbio*/
+    height: 550px;
+}
+
+.main:hover{
+    cursor:pointer;
+}
+
+input{/*dubbio*/
+    width: 30%;
+    height: 13px;
+    padding: 6px 12px;
+    border: 1px solid #d9dadc;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+.allow{
+    display: flex;
+    width: 100%;
+    text-align: center;/*?*/
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.allow input{
+    width: 20px;
+    height: 20px;
+}
+
+.allow label{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.error label {
+    color: #d01b2d;
+}
+
+.error span {
+    opacity: 1;
+    font-size: 14px;
+    color: #d01b2d;
+}
+
+form img{
+    opacity: 0;
+    width:10px;
+    margin-right:10px;
+}
+.error img {/*errorj?*/
+    opacity: 1;
+}
+
+.error input, .error #upload {/*?*/
+    border-color: #d01b2d;
+}
+
+
+.username, .email, .password, .confirm_password, .fileupload{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align:center;
+    font-size: 18px;
+    font-weight:lighter;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.submit input{
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 16px 14px 18px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #10142d;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.submit input:hover{
+    cursor: pointer;
+    background-color:red;
+}
+.signup{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

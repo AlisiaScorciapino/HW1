@@ -1,0 +1,108 @@
+body{
+    background-image:url(sf.webp);
+    background-size: 100% 100%;
+    margin:100px;
+    font-family: 'Courier New',sans-serif;/*dubbio*/
+    color:black;/*dubbio*/
+}
+          
+.error{
+    display: block;
+    background-color: #e22134;
+    padding: 14px 14px 12px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    width: 100%;
+  }
+
+.submit_container{
+    display: flex;
+    align-items: center;
+  }
+
+.main{
+  display: flex;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+
+#id_section{
+  display: flex;
+  flex-direction: column;
+}
+
+.username, .password{
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.signup{
+margin: 10px 0;
+}
+
+#login{
+  position:absolute;
+  background-color: #e22134;
+}
+
+
+.login_btn input{
+    border-radius: 5px;
+    padding: 16px 14px 18px;
+    margin-left: 15px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #10142d;
+    transition-property: background-color;
+    transition-duration: .3s;
+  }
+
+.login_btn input:hover{
+    cursor: pointer;
+    background-color: #3948ab;
+}
+
+
+
+h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.signup_btn_container{
+    padding-right: 30px;
+}
+
+.signup_btn{
+    display: block;
+    border-radius: 50px;
+    border: 3px solid #616467;
+    padding: 16px 14px 18px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #616467;
+    line-height: 1;
+    letter-spacing: 2px;
+    width: 100%;
+    transition-property: background-color, color;
+    transition-duration: .3s;
+}
+
+  .signup_btn:hover{
+    border-radius: 50px;
+    background-color: #616467;
+    color: #fff;
+    padding: 16px 14px 18px;
+  }
+
